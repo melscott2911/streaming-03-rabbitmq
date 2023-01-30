@@ -97,5 +97,7 @@ Each of the version 2 programs include an error as well.
 ![Mac Example](screenshot.png)
 
 
-<img src="/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/Screen Shot 2023-01-29 at 11.36.23 AM.png" alt="Assignment3" title="MelScreenshot">
+![Alt text](/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/Screen Shot 2023-01-29 at 11.36.23 AM.png "Assignment 3")
+
+
 
