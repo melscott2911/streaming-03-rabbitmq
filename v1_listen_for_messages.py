@@ -1,8 +1,6 @@
 """
 
-Always customize this docstring. 
-
-Add your name, date, and a description of the program.
+Mel Scott 1/29/2023; Listen for Messages V1-RabbitMQ
 
 Listens for messages on the queue.
 This process runs continously. 
@@ -34,7 +32,7 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHost'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue
