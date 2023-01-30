@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-29 at 05:54 PM
+
+ This file is running on:    posix Darwin 21.3.0
+ 
+ The Python version is:      3.11.0
+ 
+ The Python interpreter is at: 
+ /usr/local/bin/python3
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: base
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ /Library/Frameworks/Python.framework/Versions/3.11
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ /Users/mel/Documents/Streaming Data/streaming-03-rabbitmq
+ 
+ The absolute path to the data directory is:
+
+ /Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/
+ 
+ The absolute path to this source directory is:
+
+ /Users/mel/Documents/Streaming Data/streaming-03-rabbitmq
+ 
+ The absolute path to this file is:
+
+ /Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/about.py
+ 
+==============================================================
+==============================================================
+

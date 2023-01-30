@@ -95,3 +95,6 @@ Each of the version 2 programs include an error as well.
 ## Multiple Terminals
 
 ![Mac Example](screenshot.png)
+
+![](../../../Desktop/Screen%20Shot%202023-01-29%20at%2011.36.23%20AM.png)
+
