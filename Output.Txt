@@ -1,0 +1,116 @@
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ source /Users/mel/miniconda3/bin/ac
+/miniconda3
+/Users/mel/miniconda3/bin/python "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+ [x] Sent 'Hello World!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.
+py"
+Traceback (most recent call last):
+  File "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.py", line 58, in <module>
+    main()
+  File "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.py", line 37, in main
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+  File "/Users/mel/miniconda3/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 360, in __init__
+    self._impl = self._create_connection(parameters, _impl_class)
+  File "/Users/mel/miniconda3/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/Users/mel/miniconda3/lib/python3.10/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/Users/mel/miniconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.
+py"
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Hello World!'
+ [x] Received 'Hello World!'
+ [x] Received 'Hello World!'
+/Users/mel/miniconda3/bin/python "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+/Users/mel/miniconda3/bin/python "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+^CInterrupted
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+ [x] Sent 'Hello World!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/pytho
+n "/Users/mel/Documents/Streaming Data
+/streaming-03-rabbitmq/v1_emit_message
+.py"
+ [x] Sent 'Hello World!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+ [x] Sent 'Hello Assignment 3!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.
+py"
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Hello Assignment 3!'
+ [x] Received 'Hello Assignment 3!'
+ [x] Received 'Hello Assignment 3!'
+/Users/mel/miniconda3/bin/python "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+^CInterrupted
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+ [x] Sent 'Hello Sunday!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.
+py"
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Hello Sunday!'
+^CInterrupted
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_emit_message.py"
+ [x] Sent 'Go Chiefs!'
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v1_listen_for_messages.
+py"
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Go Chiefs!'
+^CInterrupted
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_emit_message.py"
+Traceback (most recent call last):
+  File "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_emit_message.py", line 26, in send_message
+    conn = pika.BlockingConnection(pika.ConnectionParameters(localhost))
+NameError: name 'localhost' is not defined. Did you mean: 'locals'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_emit_message.py", line 47, in <module>
+    send_message("llllocalhost","hello","Hello World!")
+  File "/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_emit_message.py", line 40, in send_message
+    conn.close()
+UnboundLocalError: local variable 'conn' referenced before assignment
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_emit_message.py"
+ [x] Sent Hello World!
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_listen_for_messages.
+py"
+
+ERROR: connection to RabbitMQ server failed.
+Verify the server is running on host=localhostttt.
+The error says: name 'localhost' is not defined
+
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_listen_for_messages.
+py"
+
+ERROR: connection to RabbitMQ server failed.
+Verify the server is running on host=localhost.
+The error says: name 'localhost' is not defined
+
+(base) ➜  streaming-03-rabbitmq git:(main) ✗ /Users/mel/miniconda3/bin/python "/
+Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/v2_listen_for_messages.
+py"
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Hello World!'
+^C
+ User interrupted continuous listening process.
+
+Closing connection. Goodbye.
+
+(base) ➜  streaming-03-rabbitmq git:(main) 

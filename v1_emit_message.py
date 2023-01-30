@@ -21,3 +21,5 @@ ch.basic_publish(exchange="", routing_key="hello", body="Go Chiefs!")
 print(" [x] Sent 'Go Chiefs!'")
 # close the connection to the server
 conn.close()
+
+#Output
