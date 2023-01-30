@@ -97,7 +97,7 @@ Each of the version 2 programs include an error as well.
 ![Mac Example](screenshot.png)
 
 
-![Alt text](/Users/mel/Documents/Streaming Data/streaming-03-rabbitmq/Screen Shot 2023-01-29 at 11.36.23 AM.png "Assignment 3")
 
+![MelExample](Screen%20Shot%202023-01-29%20at%2011.36.23%20AM.png)
 
 
